@@ -2,9 +2,11 @@ public class Welcome {
 
   public static void main (String arg[]) {
 
-     String name = "Viki";
-    
+     String name = "Viki"; 
      String names[] = {"Viki", "Selva", "Mohan", "Vignesh"} ;
+     int totalMark = 100;
+     int NoOfMarks[] = {70,50,50,40}
+    
      System.out.println("********************************");
      System.out.println("Welcome to java learning ::: " + name);
      
@@ -20,6 +22,13 @@ public class Welcome {
           }
        
      }
+    
+     for(int i=0; i<NoOfMarks.length; i++) {
+       
+          System.out.println("Mark::: " + NoOfMarks[i]);
+  
+     }
+    
      System.out.println("********************************");
 
   }
