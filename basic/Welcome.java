@@ -4,6 +4,7 @@ public class Welcome {
 
      String name = "Viki";
     
+     String names[] = {"Viki", "Selva", "Mohan", "Vignesh"} ;
      System.out.println("********************************");
      System.out.println("Welcome to java learning ::: " + name);
      System.out.println("********************************");
