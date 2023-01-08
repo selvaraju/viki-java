@@ -31,7 +31,7 @@ public class Welcome {
      }
     
      System.out.println("Total Mark:" + earnedMarks);
-     System.out.println("Avg Mark:" + ((earnedMarks/5)*100));
+     System.out.println("Avg Mark:" + ((earnedMarks/5)%100));
 
   }
 }
