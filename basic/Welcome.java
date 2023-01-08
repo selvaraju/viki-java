@@ -10,7 +10,7 @@ public class Welcome {
      
      for(int i=0; i<names.length; i++) {
        
-          System.out.println("Welcome to java learning ::: " + c);
+          System.out.println("Welcome to java learning ::: " + names[i]);
           if ( names[i] == "Mohan") {
             System.out.println("**********Father********");
           }else if( names[i] == "Mohan") {
