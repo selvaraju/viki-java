@@ -5,7 +5,7 @@ public class Welcome {
      String name = "Viki"; 
      String names[] = {"Viki", "Selva", "Mohan", "Vignesh"} ;
      int totalMark = 100;
-     int NoOfMarks[] = {70,50,50,40,50}
+     int NoOfMarks[] = {70,50,50,40,50};
     
      System.out.println("********************************");
      System.out.println("Welcome to java learning ::: " + name);
@@ -31,6 +31,7 @@ public class Welcome {
      }
     
      System.out.println("Total Mark:" + earnedMarks);
+     System.out.println("Avg Mark:" + ((earnedMarks/5)*100));
 
   }
 }
