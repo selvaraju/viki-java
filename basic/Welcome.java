@@ -7,7 +7,12 @@ public class Welcome {
      String names[] = {"Viki", "Selva", "Mohan", "Vignesh"} ;
      System.out.println("********************************");
      System.out.println("Welcome to java learning ::: " + name);
-     System.out.println("Welcome to java learning ::: " + names.toString());
+     
+     for(int i=0; i<names.length; i++) {
+       
+          System.out.println("Welcome to java learning ::: " + names[i]);
+       
+     }
      System.out.println("********************************");
 
   }
