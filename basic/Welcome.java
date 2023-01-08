@@ -5,7 +5,7 @@ public class Welcome {
      String name = "Viki"; 
      String names[] = {"Viki", "Selva", "Mohan", "Vignesh"} ;
      int totalMark = 100;
-     int NoOfMarks[] = {70,50,50,40}
+     int NoOfMarks[] = {70,50,50,40,50}
     
      System.out.println("********************************");
      System.out.println("Welcome to java learning ::: " + name);
@@ -22,14 +22,15 @@ public class Welcome {
           }
        
      }
-    
+     int earnedMarks = 0;
      for(int i=0; i<NoOfMarks.length; i++) {
        
           System.out.println("Mark::: " + NoOfMarks[i]);
+          earnedMarks = earnedMarks + NoOfMarks[i];
   
      }
     
-     System.out.println("********************************");
+     System.out.println("Total Mark:" + earnedMarks);
 
   }
 }
