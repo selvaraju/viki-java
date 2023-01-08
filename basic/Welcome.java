@@ -13,7 +13,7 @@ public class Welcome {
           System.out.println("Welcome to java learning ::: " + names[i]);
           if ( names[i] == "Mohan") {
             System.out.println("**********Father********");
-          }else if( names[i] == "Mohan") {
+          }else if( names[i] == "Selva") {
             System.out.println("**********Uncle**********");
           }else{
             System.out.println("**********Student**********");
